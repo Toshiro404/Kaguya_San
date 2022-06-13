@@ -212,7 +212,7 @@ break
                 let anu = groups.map(v => v.id)
 	let ur = anu.length
 	let b = await user.countDocuments({ ban : "true" })
-let ter = `🧧 *Commands*: 55\n🔧 *Users*: ${tr}\n💚 *Groups*: ${ur}\n🚫 *Ban_Users*: ${b}\n⛩ *Moderators*: ${owner.length}`
+let ter = `🧧 *Commands*: 55\n🍁 *Users*: ${tr}\n🎉 *Groups*: ${ur}\n🚫 *Ban_Users*: ${b}\n⛩ *Moderators*: ${owner.length}`
 console.log(ter)
    let buttonMessaged = {
         text: ter,
@@ -240,7 +240,7 @@ break
 		   case "h":
 		   case "help":
 		   case 'menu':{ 
-			     arus.sendMessage(m.chat, { text: menu, contextInfo:{"externalAdReply": {"title": `WhatsApp-Botto`,"body": `𝐌𝐢𝐳𝐮𝐡𝐚𝐫𝐚`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": await getBuffer("https://i.pinimg.com/736x/01/bd/31/01bd31fb1b185e38d9f605b0f8f16b90.jpg"),"sourceUrl": "https://kanojo-okarishimasu.fandom.com/wiki/Chizuru_Ichinose"}}}, { quoted: m})
+			     arus.sendMessage(m.chat, { text: menu, contextInfo:{"externalAdReply": {"title": `ZeroTwo Botto`,"body": `Created By Arus modified Toshiro`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": await getBuffer("https://telegra.ph/file/520d31f754a68f57ea340.jpg"}}}, { quoted: m})
  }
 			   break
 		   case 'session': {
