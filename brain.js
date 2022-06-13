@@ -216,7 +216,7 @@ let ter = `🧧 *Commands*: 55\n🍁 *Users*: ${tr}\n🎉 *Groups*: ${ur}\n🚫 
 console.log(ter)
    let buttonMessaged = {
         text: ter,
-        footer: '@ARUS',
+        footer: '@ARUS-ZEROTWO',
         buttons: dbut,
         headerType: 4
     }
