@@ -175,7 +175,7 @@ case '':
 ]
 let buttonMessaged = {
         text: `Hey *${pushname}* I am ${name}. Do you mean: ${prefix}help`,
-        footer: '@ARUS',
+        footer: '@ARUS-ZEROTWO',
         buttons: dbut,
         headerType: 4
     }
@@ -268,7 +268,7 @@ break
     case'leaderboard':
   const mems_id = new Array()
       const lb = await Levels.fetchLeaderboard("bot", 10);
-					 let lbtext = "*━━━━『💫LeaderBoard💫』━━━━*\n\n"
+					 let lbtext = "*━━━━『🏮LeaderBoard🏮』━━━━*\n\n"
 	  for (let i = 0; i < lb.length; i++) {
 		          const levelRole = lb[i].level
         var role = 'Warrior'
@@ -739,12 +739,12 @@ case 'ping':
 if (!m.isGroup) return m.reply("Sorry its a group command.Couldn't process the request!")
 if (!isAdmins) return m.reply("❌ This is an Admin only Command")
 if (!isBotAdmins) return m.reply("❌ Cannot execute without being admin")
-if(q) { var Text =`📌 *Message - ${q}*\n*🍁 Group name - ${groupName}*` } else {  var Text = `*${groupName}*`}
+if(q) { var Text =`🏮 *Message - ${q}*\n*🎉 Group name - ${groupName}*` } else {  var Text = `*${groupName}*`}
 
-let menText = `${Text}\n*💫 ping by - ${pushname}*\n*🕛 time - ${time}*\n\n`
+let menText = `${Text}\n*Init📢 - ${pushname}*\n*🕛 time - ${time}*\n\n`
 for (let memNum of participants) {
     
-    if( groupAdmins.includes(memNum.id) === true ) { var emo = '👑'} else { var emo = '❄️'} 
+    if( groupAdmins.includes(memNum.id) === true ) { var emo = '👑'} else { var emo = '🍁'} 
     menText += `${emo} *@${memNum.id.split('@')[0]}*\n`
     //members_id.push(memNum.jid)
 }
